@@ -64,7 +64,7 @@ public class PlayerOne : MonoBehaviour
             Debug.Log("Press 'F' to start a new battle.");
         }
 
-        if(playerLevel == 5)
+        if(playerLevel == 5) // When the player levels up if they are level 5 they win
         {
             combat.Win();
 
